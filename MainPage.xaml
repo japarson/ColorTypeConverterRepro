@@ -6,6 +6,9 @@
     <ScrollView>
         <VerticalStackLayout Padding="30,0"
                              Spacing="25">
+            <Label Style="{StaticResource Headline}"
+                   Text="The two labels below should display the same text and have the same background color." />
+
             <Label x:Name="Color1"
                    Style="{StaticResource Headline}"
                    Text="abc" />
